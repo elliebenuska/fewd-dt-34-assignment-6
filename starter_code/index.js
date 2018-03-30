@@ -38,6 +38,7 @@ $("select").on("change", function(){
 			// Use if/else if/else conditionals to control the flow of your application
 
 
+
 			if (selectedVal === "NYC"){
 				$("body").css("background", "url(images/nyc.jpg) no-repeat center center fixed");
 			}else if (selectedVal === "SF"){
@@ -54,4 +55,13 @@ $("select").on("change", function(){
 		});
 
 });
+
+
+
+
+
+
+
+
+
 	// Use the $.change event handler to capture user actions
